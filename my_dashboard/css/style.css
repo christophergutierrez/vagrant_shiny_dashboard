@@ -1,0 +1,93 @@
+/* demo page styles */
+/*
+    #e7e5e5 -> grey
+    #10A5AA -> green
+    #4D2B75 -> purple
+    #F47920 -> orange
+*/
+
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+}
+.example {
+    background:#fff;
+    width:770px;
+    height:570px;
+    border:1px #000 solid;
+    margin:20px auto;
+    padding:15px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+img {float: right;}
+
+/* main menu styles */
+#nav {
+    display:inline-block;
+    width:100%;
+    margin:0px auto;
+    padding:0;
+    background:#4D2B75;
+}
+#nav li {
+    margin:10px;
+    float:left;
+    position:relative;
+    list-style:none;
+}
+#nav a {
+    font-weight:bold;
+    color:#e7e5e5;
+    text-decoration:none;
+    display:block;
+    padding:8px 20px;
+
+}
+
+/* selected menu element */
+#nav .current a, #nav li:hover > a {
+    background:#F47920;
+    color:#000;
+    border-top:1px solid #f8f8f8;
+}
+
+/* sublevels */
+#nav ul li:hover a, #nav li:hover li a {
+    background:#F47920;
+    border:none;
+    color:#000;
+}
+#nav ul li a:hover {
+    background:#4D2B75;
+    color:#10A5AA;
+}
+
+/* drop down */
+#nav li:hover > ul {
+    opacity:1;
+    visibility:visible;
+}
+#nav ul {
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:175px;
+    position:absolute;
+    background:none;
+}
+#nav ul li {
+    float:none;
+    margin:0;
+}
+#nav ul a {
+    font-weight:normal;
+    text-shadow:none rgba(255,255,255, 0.7);
+}
+#nav ul ul {
+    left:160px;
+    top:0px;
+}
