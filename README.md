@@ -1,12 +1,14 @@
 # vagrant_shiny_dashboard
 The purpose of this repos is to provide an easy method to get a complete reporting system powered by shiny server running.
+
 It assumes you have Vagrant installed with the box ubuntu/trusty64
+
 Steps to make this work:
-vagrant init ubuntu/trusty64
-mkdir -p shiny/git_home
-cd shiny/git_home/
-git clone https://github.com/christophergutierrez/vagrant_shiny_dashboard.git
-git clone https://github.com/rstudio/shiny-examples.git #optional
+
+- mkdir -p shiny/git_home
+- cd shiny/git_home/
+- git clone https://github.com/christophergutierrez/vagrant_shiny_dashboard.git
+- git clone https://github.com/rstudio/shiny-examples.git #optional
 
 cd ..
 ln -s git_home/vagrant_shiny_dashboard/vagrant_init/Vagrantfile Vagrantfile
