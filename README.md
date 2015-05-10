@@ -1,7 +1,9 @@
 # vagrant_shiny_dashboard
 The purpose of this repos is to provide an easy method to get a complete reporting system powered by shiny server running.
 
-It assumes you have Vagrant installed with the box ubuntu/trusty64
+It assumes you have Vagrant installed and used the box ubuntu/trusty64
+
+Note this takes a few minutes in human time, but could take hours in downloading and running.
 
 Steps to make this work:
 
