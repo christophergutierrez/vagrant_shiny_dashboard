@@ -9,10 +9,8 @@ Steps to make this work:
 - cd shiny/git_home/
 - git clone https://github.com/christophergutierrez/vagrant_shiny_dashboard.git
 - git clone https://github.com/rstudio/shiny-examples.git #optional
-
-cd ..
-ln -s git_home/vagrant_shiny_dashboard/vagrant_init/Vagrantfile Vagrantfile
-
-vagrant up 
+- cd ..
+- ln -s git_home/vagrant_shiny_dashboard/vagrant_init/Vagrantfile Vagrantfile
+- vagrant up 
 
 I plan to add information on how to make the overall system scale well and fit into a production ready work flow. Warning, I am terrible at front end development so cover your childrens eyes if you open the HTML.
